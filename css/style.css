@@ -568,14 +568,29 @@ body {
   .popup__left {
     width: 33%;
     display: table-cell; }
+    @media (max-width: 75em) {
+      .popup__left {
+        width: 100%;
+        display: block;
+        text-align: center; } }
   .popup__right {
     width: 66%;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
+    @media (max-width: 75em) {
+      .popup__right {
+        width: 100%;
+        display: block;
+        text-align: center; } }
   .popup__image {
     display: block;
     width: 100%; }
+    @media (max-width: 75em) {
+      .popup__image {
+        position: relative;
+        display: inline-block;
+        width: 40%; } }
   .popup__text {
     text-align: justify;
     font-size: 1.4rem;
